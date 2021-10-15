@@ -1,0 +1,43 @@
+body {
+    background: #DDD;
+    font-family: "Times New Roman";
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background: #FFF;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    background: #080;
+    color: #FFF;
+    padding: 15px;
+    font-size: 30px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 15px;
+    outline: 0px;
+}
+
+button:hover {
+    background: #020;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 18px;
+    list-style: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.active {
+    background: #000;
+    color: #FFF;
+}
